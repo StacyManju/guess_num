@@ -16,6 +16,7 @@ while True:
     guess_num = int(input('請猜1~100的數字: '))
     if guess_num == r :
         print('您猜對號碼了!')
+        print('這是您猜的第', count ,'次')
         break
     elif guess_num < r:
         print('您猜的號碼比正確答案小 請繼續往上猜')
